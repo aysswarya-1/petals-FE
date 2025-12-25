@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@theme {
+    --color-rosy-50: #FFF7F5;
+    --color-rosy-100: #fde8e8;
+    --color-rosy-200: #F3EEEC;
+    --color-rosy-400: #f7c6c6;
+    --color-rosy-500: #c77b7b;
+    --color-rosy-600: #C77D8A;
+    --color-rosy-700: #A65563;
+    --color-browny-50: #9D9190;
+    --color-browny-100: #6B5052;
+    --color-muted: #F6EDEB;
+}
+
+body {
+    @apply bg-[--rosy-50] text-gray-900;
+}
+
+.auth-input {
+    @apply w-full p-3 rounded-md border border-rosy-100 bg-rosy-50 text-sm outline-none focus:ring-2 focus:ring-rosy-200;
+}
+
+/* Hide scrollbar but keep scroll */
+.hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@layer utilities {
+    .animate-slideIn {
+        animation: slideIn 0.3s ease-out;
+    }
+}
