@@ -1,16 +1,99 @@
-# React + Vite
+# 🌸 Petals-FE (Frontend)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Petals-FE is the frontend web application for the **Petals** project, built using **React.js** and **Vite**.
+It serves as the user interface that interacts with the Petals backend API.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- Built with **React.js**
+- Fast development using **Vite**
+- Modular component-based architecture
+- API integration with backend services
+- ESLint configured for code quality
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📁 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+petals-FE/
+├── public/ # Static assets
+├── src/
+│ ├── assets/ # Images, styles, icons
+│ ├── components/ # Reusable UI components
+│ ├── pages/ # Application pages
+│ ├── services/ # API calls and helpers
+│ ├── App.jsx # Root component
+│ └── main.jsx # Entry point
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+
+---
+
+## 📦 Prerequisites
+
+- Node.js (v16+)
+- npm or yarn
+- Petals-BE backend running
+
+---
+
+## 🔧 Installation
+
+```bash
+git clone https://github.com/aysswarya-1/petals-FE.git
+cd petals-FE
+npm install
+
+---
+
+## 📦 Prerequisites
+
+- Node.js (v16+)
+- npm or yarn
+- Petals-BE backend running
+
+---
+
+## 🔧 Installation
+
+```bash
+git clone https://github.com/aysswarya-1/petals-FE.git
+cd petals-FE
+npm install
+
+▶️ Running the App
+npm run dev
+
+
+App runs at:
+
+http://localhost:3000
+
+📦 Production Build
+npm run build
+npm run preview
+
+⚙️ Environment Variables
+
+Create a .env file:
+
+VITE_API_BASE_URL=http://localhost:5000/api
+
+🧪 Linting
+npm run lint
+
+🤝 Contributing
+
+Pull requests are welcome.
+
+👩‍💻 Author
+
+Ayswarya
+GitHub: https://github.com/aysswarya-1
+
+
+---
