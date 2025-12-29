@@ -1,99 +1,124 @@
-# 🌸 Petals-FE (Frontend)
+# 🌸 Petals-FE
 
-Petals-FE is the frontend web application for the **Petals** project, built using **React.js** and **Vite**.
-It serves as the user interface that interacts with the Petals backend API.
+Petals-FE is the frontend of the Petals web application, built using React and Vite.  
+It provides a modern, responsive, and user-friendly interface and communicates with the backend APIs to deliver a complete user experience.
 
 ---
 
-## 🚀 Features
+## 📌 Table of Contents
 
-- Built with **React.js**
-- Fast development using **Vite**
-- Modular component-based architecture
-- API integration with backend services
-- ESLint configured for code quality
+- About
+- Features
+- Tech Stack
+- Getting Started
+- Project Structure
+- Scripts
+- Author
+
+---
+
+## 📖 About
+
+This project is the frontend layer of the Petals application.  
+It focuses on clean UI design, component-based architecture, and fast development using Vite.
+
+---
+
+## ✨ Features
+
+- Responsive UI
+- Component-based React architecture
+- Fast development with Vite
+- API integration ready
+- Clean and maintainable code structure
+
+---
+
+## 🧰 Tech Stack
+
+- React
+- Vite
+- JavaScript
+- HTML5
+- CSS3
+- ESLint
+
+---
+
+## 🛠️ Getting Started
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+- Node.js (v14 or above)
+- npm or yarn
+
+---
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/aysswarya-1/petals-FE.git
+cd petals-FE
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+---
+
+### Run the Application
+
+```bash
+npm run dev
+```
+
+Open your browser and visit:
+
+```
+http://localhost:5173
+```
 
 ---
 
 ## 📁 Project Structure
 
+```
 petals-FE/
-├── public/ # Static assets
+├── public/
 ├── src/
-│ ├── assets/ # Images, styles, icons
-│ ├── components/ # Reusable UI components
-│ ├── pages/ # Application pages
-│ ├── services/ # API calls and helpers
-│ ├── App.jsx # Root component
-│ └── main.jsx # Entry point
+│   ├── assets/
+│   ├── components/
+│   ├── pages/
+│   ├── App.jsx
+│   └── main.jsx
 ├── index.html
 ├── package.json
 ├── vite.config.js
 └── README.md
+```
 
 ---
 
-## 📦 Prerequisites
+## 📜 Scripts
 
-- Node.js (v16+)
-- npm or yarn
-- Petals-BE backend running
-
----
-
-## 🔧 Installation
-
-```bash
-git clone https://github.com/aysswarya-1/petals-FE.git
-cd petals-FE
-npm install
+- `npm run dev` – Start development server
+- `npm run build` – Build for production
+- `npm run preview` – Preview production build
 
 ---
 
-## 📦 Prerequisites
+## 👩‍💻 Author
 
-- Node.js (v16+)
-- npm or yarn
-- Petals-BE backend running
-
----
-
-## 🔧 Installation
-
-```bash
-git clone https://github.com/aysswarya-1/petals-FE.git
-cd petals-FE
-npm install
-
-▶️ Running the App
-npm run dev
-
-
-App runs at:
-
-http://localhost:3000
-
-📦 Production Build
-npm run build
-npm run preview
-
-⚙️ Environment Variables
-
-Create a .env file:
-
-VITE_API_BASE_URL=http://localhost:5000/api
-
-🧪 Linting
-npm run lint
-
-🤝 Contributing
-
-Pull requests are welcome.
-
-👩‍💻 Author
-
-Ayswarya
+Aisswarya M  
 GitHub: https://github.com/aysswarya-1
 
-
 ---
+
+⭐ If you like this project, don’t forget to star the repository!
